@@ -1,0 +1,55 @@
+{
+  "name": "example_video_portal_vuejs",
+  "version": "2.0.0",
+  "description": "Example video portal site for your BoxCast account written in vue.js",
+  "author": "Mike Griffith <bikegriffith@gmail.com>",
+  "scripts": {
+    "start": "vue-cli-service serve",
+    "lint": "vue-cli-service lint",
+    "build:dist": "vue-cli-service build",
+    "build:docs": "VUE_PUBLIC_PATH=/example_video_portal_vuejs vue-cli-service build --dest=docs"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "bootstrap-vue": "^2.15.0",
+    "core-js": "^3.6.5",
+    "jquery": "^3.5.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.4.6",
+    "@vue/cli-plugin-eslint": "^4.4.6",
+    "@vue/cli-service": "^4.4.6",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.3.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-unused-vars": "off",
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
