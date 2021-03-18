@@ -2,7 +2,7 @@
   <div id="app" class="container-fluid">
 
     <b-jumbotron header="Franciscan.live"
-                 lead="One-Stop Shop For Everything Live @ Franciscan">
+                 lead="Your One-Stop For Everything Live @ Franciscan">
     </b-jumbotron>
 
     <router-view/>
