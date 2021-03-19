@@ -33,6 +33,7 @@ export default {
   color: #21412a;
   margin-top: 15px;
 }
+
 .ellipse, .jumbotron h1 {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -50,6 +51,11 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.list-group-item.active {
+  background-color: #21412a;
+  border-color: #000;
 }
 
 @media (max-width: 767px) {
