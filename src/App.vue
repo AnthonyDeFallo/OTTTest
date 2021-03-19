@@ -34,7 +34,6 @@ export default {
   margin-top: 15px;
 }
 .ellipse, .jumbotron h1 {
-  background-image: url('background.jpg');
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
