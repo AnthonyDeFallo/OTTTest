@@ -101,7 +101,7 @@ export default {
       let l = 20
       switch (this.$route.name) {
         case 'LiveAndRecentListView':
-          q = 'timeframe:current timeframe:past'
+          q = 'timeframe:past'
           break
         case 'UpcomingListView':
           q = 'timeframe:current timeframe:future'
