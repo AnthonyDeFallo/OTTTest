@@ -10,12 +10,12 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/',
+      path: '/recents',
       name: 'LiveAndRecentListView',
       component: ChannelListView
     },
     {
-      path: '/upcoming',
+      path: '/',
       name: 'UpcomingListView',
       component: ChannelListView
     },
