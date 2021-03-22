@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="container-fluid">
 
-    <a href = "/#"><b-jumbotron header="Franciscan.live"
+    <a href = "/#" style="text-decoration: none"><b-jumbotron header="Franciscan.live"
                  lead="Your One-Stop For Everything Live @ Franciscan">
     </b-jumbotron></a>
 
@@ -57,8 +57,6 @@ export default {
   background-color: #21412a;
   border-color: #000;
 }
-
-a { text-decoration: none; }
 
 @media (max-width: 767px) {
   .col-sm-0 {
