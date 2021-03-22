@@ -52,4 +52,9 @@ export default {
   overflow: hidden;
   font-weight: bold;
 }
+
+.list-group-item.active {
+  background-color: #21412a;
+  border-color: #000;
+}
 </style>
