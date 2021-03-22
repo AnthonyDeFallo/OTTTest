@@ -1,7 +1,7 @@
 <template>
   <b-list-group>
     <b-list-group-item href="#/"
-                       :active="$route.query.channel_id == 'upcoming' || $route.name == 'UpcomingListView'">Live and Upcoming Broadcasts</b-list-group-item>
+                       :active="$route.query.channel_id == 'upcoming' || $route.name == 'UpcomingListView'">Live and Upcoming</b-list-group-item>
     <b-list-group-item href="#/recents"
                        :active="$route.query.channel_id == 'live_recent' || $route.name == 'LiveAndRecentListView'">Recent Broadcasts</b-list-group-item>
     <b-list-group-item href="#/highlights"
