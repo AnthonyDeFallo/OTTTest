@@ -58,6 +58,8 @@ export default {
   border-color: #000;
 }
 
+a { text-decoration: none; }
+
 @media (max-width: 767px) {
   .col-sm-0 {
     display: none;
