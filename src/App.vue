@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="container-fluid">
 
-    <a href = "/#" style="text-decoration: none; color: 21412a"><b-jumbotron header="Franciscan.live"</a>
+    <a href = "/#" style="text-decoration: none; color: #21412a"><b-jumbotron header="Franciscan.live"</a>
                  lead="Your One-Stop For Everything Live @ Franciscan">
     </b-jumbotron>
 
