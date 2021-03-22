@@ -4,8 +4,8 @@
                        :active="$route.query.channel_id == 'upcoming' || $route.name == 'UpcomingListView'">Live and Upcoming</b-list-group-item>
     <b-list-group-item href="#/recents"
                        :active="$route.query.channel_id == 'live_recent' || $route.name == 'LiveAndRecentListView'">Recent Broadcasts</b-list-group-item>
-    <b-list-group-item href="#/highlights"
-                       :active="$route.name == 'HighlightView' || $route.name == 'HighlightsListView'">Highlights</b-list-group-item>
+    <!--<b-list-group-item href="#/highlights"
+                       :active="$route.name == 'HighlightView' || $route.name == 'HighlightsListView'">Highlights</b-list-group-item>-->
     <b-list-group-item disabled
                        v-if="loading">Loading Channels...</b-list-group-item>
     <b-list-group-item v-for="c in channels"

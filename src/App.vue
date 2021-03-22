@@ -1,9 +1,9 @@
 <template>
   <div id="app" class="container-fluid">
 
-    <b-jumbotron header="Franciscan.live"
+    <a href = "/#"><b-jumbotron header="Franciscan.live"
                  lead="Your One-Stop For Everything Live @ Franciscan">
-    </b-jumbotron>
+    </b-jumbotron></a>
 
     <router-view/>
   </div>
