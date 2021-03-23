@@ -1,8 +1,8 @@
 <template>
   <div id="app" class="container-fluid">
 
-    <b-jumbotron header="Franciscan.live"
-                 lead="Your One-Stop For Everything Live @ Franciscan">
+    <b-jumbotron header="Franciscan.live BETA"
+                 lead="BETA1 FRANCISCAN.LIVE SITE, LAUNCH TO FRANCISCAN.LIVE THURS MAR 25">
     </b-jumbotron>
 
     <router-view/>
