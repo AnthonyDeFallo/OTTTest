@@ -4,7 +4,7 @@
     <b-jumbotron header="Franciscan.live BETA"
                  lead="BETA1 FRANCISCAN.LIVE SITE, LAUNCH TO FRANCISCAN.LIVE THURS MAR 25">
     </b-jumbotron>
-
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e382ce12a7bf4999a0dcd57213be9661"}'></script><!-- End Cloudflare Web Analytics -->
     <router-view/>
   </div>
 </template>
