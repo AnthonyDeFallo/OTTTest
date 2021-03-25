@@ -6,6 +6,6 @@ export default {
     
     return true  // <-- can use this to exclude certain channels from left nav
   }*/
-  channelFilter: (c) => ['mmxbmquk0ronyfucfk9w'].indexOf(c.id) <= 0,
-  channelFilter: (c) => ['bhfcflhlnm1vdejaktgs'].indexOf(c.id) <= 0,
+  channelFilter: (c) => ['irlcwdutrm4zlbbyvgwl', 'mmxbmquk0ronyfucfk9w'].indexOf(c.id) <= 0,
+  
 }
