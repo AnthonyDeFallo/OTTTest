@@ -6,6 +6,10 @@ export default {
     
     return true  // <-- can use this to exclude certain channels from left nav
   }*/
-  channelFilter: (c) => ['irlcwdutrm4zlbbyvgwl', 'mmxbmquk0ronyfucfk9w'].indexOf(c.id) < 0,
+
+  // irlcwdutrm4zlbbyvgwl Athletics
+  // mmxbmquk0ronyfucfk Orientation
+  // e2hvomftjkoxtzmjm0pt FOPs
+  channelFilter: (c) => ['irlcwdutrm4zlbbyvgwl', 'mmxbmquk0ronyfucfk9w', 'e2hvomftjkoxtzmjm0pt'].indexOf(c.id) < 0,
   
 }
