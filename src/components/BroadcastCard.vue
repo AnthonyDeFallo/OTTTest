@@ -4,25 +4,31 @@
       <div class="fixed-16-9">
         <div :style="bgStyle" v-if="broadcast.preview">
           <div class="timeframe badge badge-danger" v-if="timeframe == 'current'">
-            LIVE
+            LIVE NOW
           </div>
           <div class="timeframe badge badge-warning" v-if="timeframe == 'future'">
             Upcoming
           </div>
-          <div class="timeframe badge badge-secondary" v-if="timeframe == 'past' || timeframe == 'recently-ended'">
-            Recorded
+          <div class="timeframe badge badge-secondary" v-if="timeframe == 'past'">
+            On-Demand
+          </div>
+          <div class="timeframe badge badge-warning" v-if="timeframe == 'recently-ended'">
+            Recently Ended
           </div>
         </div>
         <div class="no-preview" v-if="!broadcast.preview">
           Preview not available
           <div class="timeframe badge badge-danger" v-if="timeframe == 'current'">
-            LIVE
+            LIVE NOW
           </div>
           <div class="timeframe badge badge-warning" v-if="timeframe == 'future'">
             Upcoming
           </div>
-          <div class="timeframe badge badge-secondary" v-if="timeframe == 'past' || timeframe == 'recently-ended'">
-            Recorded
+          <div class="timeframe badge badge-secondary" v-if="timeframe == 'past'">
+            On-Demand
+          </div>
+          <div class="timeframe badge badge-warning" v-if="timeframe == 'recently-ended'">
+            Recently Ended
           </div>
         </div>
       </div>
