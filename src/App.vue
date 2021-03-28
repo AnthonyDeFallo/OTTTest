@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="container-fluid">
     
-    <b-jumbotron header="Franciscan.live"
+    <b-jumbotron header="Franciscan University Live"
                  >
     </b-jumbotron>
     
