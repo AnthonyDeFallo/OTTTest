@@ -34,10 +34,10 @@
           {{broadcast.starts_at}}
           -->
 
-          <p class="ellipse text-left">Related Broadcasts</p>
+          <!--<p class="ellipse text-left">Related Broadcasts</p>
           <div class="" v-for="b in relatedBroadcasts" :key="b.id">
             <BroadcastCard :broadcast="b" :channelId="channelId" />
-          </div>
+          </div>-->
 
         </div>
       </div>
